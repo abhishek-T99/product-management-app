@@ -150,7 +150,7 @@ product-management-app/
 
    ```sh
    git clone https://github.com/abhishek-t99/product-management-app.git
-   cd clean-spring-boot-project
+   cd product-management-app
    ```
 
 2. Update the database configurations in `src/main/resources/application.properties`:
