@@ -1,9 +1,6 @@
-# Clean Spring Boot Project
+# Product Management API
 
-This project is a template for a Spring Boot application with complete authentication and API CRUD operations. It includes features such as user signup with email verification, login, password reset, product management with paginated lists, and detailed unit tests. The project is built using Maven and follows a clean architecture. Feel free to ask any questions or share your thoughts.
-
-#### Reference
-You can visit my blog post- [Clean Spring Boot Project](https://binarybytez.com/clean-spring-boot-project/)
+This project is a Spring Boot application with complete authentication and API CRUD operations. It includes features such as user signup with email verification, login, password reset, product management with paginated lists, and detailed unit tests. The project is built using Maven and follows a clean architecture.
 
 ## Features
 
@@ -27,13 +24,13 @@ You can visit my blog post- [Clean Spring Boot Project](https://binarybytez.com/
 ## Project Structure
 
 ```
-my-spring-boot-app/
+product-management-app/
 ├── src/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/
-│   │   │       └── kawser/
-│   │   │           └── cleanspringbootproject/
+│   │   │       └── abhishek/
+│   │   │           └── productmanagementproject/
 │   │   │               ├── api/
 │   │   │               │   ├── controllers/
 │   │   │               │   ├── models/
@@ -54,7 +51,7 @@ my-spring-boot-app/
 │   │   │               │   ├── api/
 │   │   │               │   ├── auth/
 │   │   │               │   ├── global.handler/
-│   │   │               └── CleanSpringBootProjectApplication.java
+│   │   │               └── ProductManagementApplication.java
 │   │   ├── resources/
 │   │   │   ├── application.properties
 │   │   │   ├── schema.sql
@@ -62,8 +59,8 @@ my-spring-boot-app/
 │   └── test/
 │       ├── java/
 │       │   └── com/
-│       │       └── kawser/
-│       │           └── cleanspringbootproject/
+│       │       └── abhishek/
+│       │           └── productmanagementproject/
 │       │               ├── api/
 │       │               │   ├── controllers/
 │       │               │   ├── repositories/
@@ -72,7 +69,7 @@ my-spring-boot-app/
 │       │               │   ├── controllers/
 │       │               │   ├── repositories/
 │       │               │   ├── services/
-│       │               └── CleanSpringBootProjectApplicationTests.java
+│       │               └── ProductManagementApplicationTests.java
 │       └── resources/
 │           └── application-test.properties
 ├── .gitignore
@@ -152,7 +149,7 @@ my-spring-boot-app/
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/clean-spring-boot-project.git
+   git clone https://github.com/abhishek-t99/product-management-app.git
    cd clean-spring-boot-project
    ```
 
@@ -185,16 +182,3 @@ my-spring-boot-app/
 - **The API documentation is available at http://localhost:8080/swagger-ui/index.html after the application is started.**
     - It provides detailed information about the available endpoints, their request parameters, and response formats.
  
-
-## Authors
-
-If you have any questions or need further assistance, please contact the project author at [@kawser2133](https://www.github.com/kawser2133) || [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawser2133)
-
-## Contributing
-
-I want you to know that contributions to this project are welcome. Please open an issue or submit a pull request if you have any ideas, bug fixes, or improvements.  
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
